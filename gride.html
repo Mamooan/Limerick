@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            display: grid;
+            grid-template-columns: 310px 310px 310px 310px;
+            grid-template-rows: 270px 270px 270px 270px 270px;
+            grid-gap: 5px;
+
+        }
+        .div{
+            background-size: 100% 100%;
+
+
+        }
+        #three{
+            /* grid-row-start: 3;
+            grid-row-end: 5; */
+           grid-column-start: 3;
+           grid-column-end: 5;
+        }
+        #four{
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+        #five{
+            grid-area: 2/2/4/4;
+        }
+        #eaight{
+            grid-area: 4/1/4/4;
+        }
+        #last{
+            grid-area: 5/3/6/5;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="main">
+    <div class="div" style="background-image: url(./Alexa1\ \(13\).jpg); background-size: 100% 100%;"></div>
+    <div class="div" style="background-image: url(./Alexa1\ \(6\).jpg); background-size: 100% 100%;"></div>
+    <div class="div" id="three" style="background-image: url(./Alexa1\ \(9\).jpg); background-size: 100% 100%;"></div>
+    <div class="div" id="four" style="background-image: url(./Alexa21.jpg); background-size: 100% 100%;"></div>
+    <div class="div" id="five" style="background-image: url(./Alexa22.jpg); background-size: 100% 100%;"></div>
+    <div class="div" style="background-image: url(./chef1.jpg); background-size: 100% 100%;"></div>
+    <div class="div" style="background-image: url(./chef2.jpg); background-size: 100% 100%;"></div>
+    <div class="div" id="eaight" style="background-image: url(./chef8.jpg); background-size: 100% 100%;"></div>
+    <div class="div" style="background-image: url(./chef7.jpg); background-size: 100% 100%;"></div>
+    <div class="div" style="background-image: url(./chef6.jpg); background-size: 100% 100%;"></div>
+    <div class="div" style="background-image: url(./chef5.jpg); background-size: 100% 100%;"></div>
+    <div class="div" id="last" style="background-image: url(./chef4.jpg); background-size: 100% 100%;"></div>
+    </div>
+</body>
+</html>

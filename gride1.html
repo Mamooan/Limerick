@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+        <style>
+            
+            #parent{
+                display: grid;
+                grid-template: 200px 200px 200px 200px/270px 270px 270px 270px 270px;
+            }
+            #parent div{
+                background-size: 100% 100%;
+                /* height: 250px;
+                width: 250px; */
+            }
+#three{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+#six{
+    grid-area:2/3/4/5;
+}
+#eight{
+    grid-area:3/1/4/3;
+}
+#two{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    z-index: 1;
+
+
+}
+        </style>
+</head>
+<body>
+    <div id="parent">
+    <div style="background-image: url(./chef1.jpg);">1</div>
+    <div id="two" style="background-image: url(./Alexa1\ \(13\).jpg);">2</div>
+    <div id="three" style="background-image: url(./Alexa1\ \(6\).jpg);">3</div>
+    <div style="background-image: url(./Alexa1\ \(9\).jpg);">4</div>
+    <div style="background-image: url(./Alexa21.jpg);">4</div>
+    <div style="background-image: url(./Alexa22.jpg);">5</div>
+    <div id="six" style="background-image: url(./chef2.jpg);">6</div>
+    <div style="background-image: url(./chef3.jpg);">7</div>
+    <div id="eight" style="background-image: url(./chef4.jpg);">8</div>
+    <div style="background-image: url(./chef5.jpg);">9</div>
+    <div style="background-image: url(./chef6.jpg);">10</div>
+    <div style="background-image: url(./chef7.jpg);">11</div>
+    <div style="background-image: url(./chef8.jpg);">12</div>
+    </div>
+    
+</body>
+</html>
